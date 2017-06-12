@@ -1,0 +1,11 @@
+ro.sf.lcd_density=480
+ro.hardware.keystore=msm8953
+persist.sys.usb.config=mtp,adb
+
+# OTA compatibility
+ro.product.model=Lenovo P2a42
+ro.product.name=P2a42
+ro.product.device=P2a42
+ro.build.product=P2a42
+ro.build.description=Team Win Recovery Project for Lenovo P2
+ro.build.fingerprint=TWRP/Team_Win_Recovery_Project/kuntao_row
