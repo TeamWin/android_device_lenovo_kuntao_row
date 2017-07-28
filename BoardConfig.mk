@@ -121,3 +121,6 @@ bionic/libc/zoneinfo/tzdata:recovery/root/system/usr/share/zoneinfo/tzdata
 #TW_USE_TOOLBOX := true
 # don't take forever to wipe
 #COMMON_GLOBAL_CFLAGS += -DNO_SECURE_DISCARD
+
+# Abuse unified device and system.prop to match props for OTA compatibility
+TARGET_UNIFIED_DEVICE := true
