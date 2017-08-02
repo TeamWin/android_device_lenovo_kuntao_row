@@ -5,7 +5,9 @@ Add to `.repo/local_manifests/kuntao_row.xml`:
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<project path="device/lenovo/kuntao_row" name="android_device_lenovo_kuntao_row" remote="Celoxocis" revision="android-7.1" />
+ <remote  name="TeamWin"
+           fetch="https://github.com/TeamWin" />
+	<project path="device/lenovo/kuntao_row" name="android_device_lenovo_kuntao_row" remote="TeamWin" revision="android-7.1" />
 </manifest>
 ```
 
